@@ -2,7 +2,7 @@ name: Auction Scraper
 
 on:
   schedule:
-    - cron: '0 14 * * *'
+    - cron: '0 10 * * *'
   workflow_dispatch:
 
 permissions:
