@@ -12,17 +12,24 @@ from bs4 import BeautifulSoup
 # ============================================================
 
 SEARCH_TERMS = [
-    "Taylor guitar",
+   "Taylor guitar",
+    "baby tayor guitar",
+    "big baby Taylor",
     "Martin guitar",
-    "Gibson guitar",
-    "Fender guitar",
+    "Little Martin guitar",
+    "parlor guitar",
+    "Fender strat",
+    "fender stratocaster"
+    "American strat",
+    "USA strat",
+    "Yamaha Acoustic"
 ]
 
 MAX_PRICE = 500
 
-EMAIL_FROM = "your_gmail_here@gmail.com"
+EMAIL_FROM = "scottawright1970@gmail.com"
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD", "your_app_password_here")
-EMAIL_TO = "your_email_here@gmail.com"
+EMAIL_TO = "scottawright1970@gmail.com"
 
 # ============================================================
 #  DO NOT EDIT BELOW THIS LINE
