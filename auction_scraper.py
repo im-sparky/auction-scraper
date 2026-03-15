@@ -205,10 +205,7 @@ def run():
         if term_new == 0:
             print("  No new listings.")
     print("New listings found: " + str(len(new_items)))
-    if new_items:
-        send_email(new_items)
-    else:
-        print("No email sent (nothing new).")
+   send_email(new_items)
     save_seen(seen)
     print("Done.")
 
